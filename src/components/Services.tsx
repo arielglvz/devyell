@@ -1,4 +1,3 @@
-import React from 'react'
 import Accordion from './ui/Accordion'
 import { services } from '../data'
 import SectionTitle from './ui/SectionTitle'

@@ -5,7 +5,7 @@ import Works from './components/Works';
 import Services from './components/Services';
 import About from './components/About';
 import Details from './components/Details';
-import { BoatWithFriends, ClonedSite, FamPic, GhibliFam, HobbyPage, LandingPages, SwimmingWithFriends, TopViewSelfieBeach, VideokeWithFriends } from './assets/images';
+import { BoatWithFriends, ClonedSite, GhibliFam, HobbyPage, LandingPages, SwimmingWithFriends, TopViewSelfieBeach, VideokeWithFriends } from './assets/images';
 
 function App() {
   const [onHover, setOnHover] = useState<boolean>(false);

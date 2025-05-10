@@ -1,9 +1,7 @@
-import React from 'react'
 import { Icon } from '@iconify/react';
 import SectionTitle from './ui/SectionTitle'
 import { about } from '../data';
 import BentoTitle from './ui/BentoTitle';
-import { GhibliSelf } from '../assets/images';
 
 const About = () => {
 

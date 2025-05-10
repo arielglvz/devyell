@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionTitle from './ui/SectionTitle'
 import BentoTitle from './ui/BentoTitle'
 import { Icon } from '@iconify/react';
