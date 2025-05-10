@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #fff;
+  --foreground: #000;
+  --muted: #fff;
+  --border: #eaeaea;
+  --accent: #111;
+}
+
+@theme {
+  /* Theme color */
+  /* --color-primary: #1D4ED8;
+  --color-secondary: #F59E0B; */
+  --color-black-bg: "hsl(0_0%_9%)";
+  --color-grey-500: #a7a7a7;
+  --color-black: black;
+  --color-grey-900: #222;
+  --color-grey-200: #f1f1f1;
+  --color-grey-300: #ebebeb;
+  --color-white: white;
+  --color-grey-100: #f7f7f7;
+  --color-grey-600: #8c8c8c;
+  --color-grey-700: #727272;
+  --color-purple-100: #e0e1fd;
+  --color-violet-100: #f1e8fe;
+  --color-yellow-200: #ffe2c3;
+  --color-violet-200: #dfd2fd;
+  --color-green-100: #d9fce0;
+  --color-violet-300: #cdb9f9;
+  --color-yellow-300: #ffda9a;
+  --color-pink-200: #fdd6f8;
+
+  /* Typographty */
+  --font-sans: 'Inter', sans-serif; /* Define your default font */
+
+  /* Animation */
+  --animate-fade-in-5: fade-in-scale 0.5s ease-in-out;
+  --animate-fade-in-6: fade-in-scale 0.6s ease-in-out;
+  --animate-fade-in-7: fade-in-scale 0.7s ease-in-out;
+  --animate-fade-in-8: fade-in-scale 0.8s ease-in-out;
+  
+  --animate-fade-enter: fade-in-scale 0.4s ease-in-out;
+  --animate-fade-exit: fade-out-scale 0.3s ease-in-out;
+}
+.custom-inset-class {
+  inset: 20% -22% auto auto;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+.black-bg {
+  background: hsl(0 0 9%);
+}
+
+.bento-card {
+  padding: 1rem;
+  background: var(--muted);
+  border: 1px solid var(--border);
+  /* border-radius: 12px; */
+  transition: 0.2s ease-in-out;
+}
+
+.cover-img {
+  background-image: url('./assets/images/ghibli-me.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-img {
+  background-image: url('./assets/images/selfie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+  /* Keyframes */
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-out-scale {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
