@@ -107,36 +107,36 @@ function App() {
           <div className={`${onHover && cardId === 1 ? "opacity-[1]" : "opacity-[0]"} w-[17vw] absolute inset-[9%_auto_auto_6%] transition-all duration-700`}>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
             <img 
-              src={ClonedSite} 
-              alt="image 1" 
               className="inline-block max-w-full w-full h-full"
+              src={ClonedSite} 
+              alt="cloned websites" 
               loading='lazy'
             />
           </div>
           <div className={`${onHover && cardId === 1 ? "opacity-[1]" : "opacity-[0]"} w-[17vw] absolute inset-[8%_5%_auto_auto] transition-all duration-700`}>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
             <img 
-              src={LandingPages} 
-              alt="image 1" 
               className="inline-block max-w-full w-full h-full" 
+              src={LandingPages} 
+              alt="Landing page websites" 
               loading='lazy'
             />
           </div>
           <div className={`${onHover && cardId === 1 ? "opacity-[1]" : "opacity-[0]"} w-[20vw] absolute inset-[auto_auto_3%_4%] transition-all duration-700`}>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
             <img 
-              src={HobbyPage} 
-              alt="image 1" 
               className="inline-block max-w-full w-full h-full" 
+              src={HobbyPage} 
+              alt="hobby pages" 
               loading='lazy'
             />
           </div>
           <div className={`${onHover && cardId === 1 ? "opacity-[1]" : "opacity-[0]"} w-[17vw] absolute inset-[auto_7%_8%_auto] rotate-4 transition-all duration-700`}>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
             <img 
+              className="inline-block max-w-full w-full h-full" 
               src="https://cdn.prod.website-files.com/653437233b349b44eda5816c/65e4df7ac9dc54431950668f_Hover-asset-4.png" 
               alt="image 1" 
-              className="inline-block max-w-full w-full h-full" 
               loading='lazy'
             />
           </div>
@@ -149,7 +149,7 @@ function App() {
                 <img 
                   className='rounded-[12px]'
                   src={service.img}
-                  alt="what-we-do_image" 
+                  alt={service.desc} 
                   loading='lazy' 
                 />
               </div>
@@ -160,41 +160,41 @@ function App() {
           <div className={`${onHover && cardId === 3 ? "opacity-[1] z-6 " : "opacity-[0]" } w-full max-w-[50rem] h-[35vh absolute inset-[auto_auto_0%] transition-all duration-700`}>
             <div className={`absolute z-3 w-[11.25rem] h-[13rem] rounded-[14px] inset-[auto_auto_-15%_-8%] overflow-hidden ${(onHover && cardId) === 3 ? "transform translate-y-[0]" : "translate-y-[140px] scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d" } transition-all duration-1000 select-none delay-100`}>
               <img 
-                src={GhibliFam}
-                alt="A black and white dog sitting in front of a stair case." 
                 className="object-cover object-[50%_24%] w-full h-full" 
+                src={GhibliFam}
+                alt="Family picture in a ghibli style effect"
                 loading='lazy'
                />
             </div>
             <div className={`absolute w-[15.25rem] h-[18rem] rounded-[14px] inset-[auto_auto_5%_15%] overflow-hidden ${(onHover && cardId) === 3 ? "transform translate-y-[0]" : "translate-y-[140px] scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d" } transition-all duration-500 delay-75  blur-[.1px] brightness-80`}>
               <img 
-                src={TopViewSelfieBeach}
-                alt="A black and white dog sitting in front of a stair case." 
                 className="object-cover object-[50%_24%] w-full h-full" 
+                src={TopViewSelfieBeach}
+                alt="Beach selfie with ocean background" 
                 loading='lazy'
                />
             </div>
             <div className={`absolute z-3 w-max h-[170px] rounded-[14px] inset-[auto_11%_10%_46%] overflow-hidden ${(onHover && cardId) === 3 ? "transform translate-y-[0]" : "translate-y-[140px] scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d" } transition-all duration-800 delay-150 blur-[.1px] brightness-80`}>
               <img 
-                src={VideokeWithFriends}
-                alt="A black and white dog sitting in front of a stair case." 
                 className="object-cover object-[50%_24%] w-full h-full" 
+                src={VideokeWithFriends}
+                alt="Group picture fter videoke with friend" 
                 loading='lazy'
                />
             </div>
             <div className={`absolute w-[11.25rem] h-max rounded-[14px] inset-[auto_2%_-3%_75%] overflow-hidden ${(onHover && cardId) === 3 ? "transform translate-y-[0]" : "translate-y-[140px] scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d" } transition-all duration-800 blur-[.1px] brightness-80`}>
               <img 
-                src={SwimmingWithFriends}
-                alt="A black and white dog sitting in front of a stair case." 
                 className="object-contain w-full h-full blur-[.1px] brightness-80" 
+                src={SwimmingWithFriends}
+                alt="Group picture after swimming with my friends" 
                 loading='lazy'
                />
             </div>
             <div className={`absolute z-2 w-max h-[150px] rounded-[14px] inset-[auto_auto_3%_98%] overflow-hidden ${(onHover && cardId) === 3 ? "transform translate-y-[0]" : "translate-y-[140px] scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d" } transition-all duration-800 delay-230  blur-[.1px] brightness-80`}>
               <img 
-                src={BoatWithFriends}
-                alt="A black and white dog sitting in front of a stair case." 
                 className="object-cover object-[50%_24%] w-full h-full" 
+                src={BoatWithFriends}
+                alt="Group picture with my friend on the boat" 
                 loading='lazy'
                />
             </div>
