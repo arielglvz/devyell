@@ -64,7 +64,7 @@ div::-webkit-scrollbar {
 }
 
 .cover-img {
-  background-image: url('./assets/images/ghibli-me.png');
+  background-image: url('./assets/images/ghibli-me.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

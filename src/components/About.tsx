@@ -72,7 +72,7 @@ const About = () => {
                   <h5 className="text-sm font-semibold text-accent transition-colors">{exp.position}</h5>
                   <div className="flex flex-row items-center justify-between gap-5">
                     <div className="text-xs text-foreground/70 text-accent/70">{exp.company}</div>
-                    <div className="px-2 py-0.5 flex items-center justify-center text-xs rounded-md bg-foreground/5 border border-foreground/10 text-[10px] text-gray-700 list-none whitespace-nowrap font-bold">{exp.year}</div>
+                    <div className="px-2 py-0.5 flex items-center justify-center text-xs rounded-md bg-foreground/5 border border-foreground/10 text-[10px] text-gray-700 list-none whitespace-nowrap">{exp.year}</div>
                   </div>
                 </div>
               ))}
