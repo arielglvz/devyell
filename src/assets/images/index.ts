@@ -1,23 +1,23 @@
-import ActivityTeam from "./activity-team.jpg";
-import BaguioWithFam from "./baguio-with-fam.jpg";
-import BasketBallWithFriends from "./basketball-friends.jpg";
+import ActivityTeam from "./activity-team.webp";
+import BaguioWithFam from "./baguio-with-fam.webp";
+import BasketBallWithFriends from "./basketball-friends.webp";
 import BeachWithFriends from "./beach-with-friends.jpg";
-import BoatWithFriends from "./boat-with-friends.jpg";
-import FamPic from "./fam-pic.jpg";
-import FarewellWithFriends from "./farewell-with-friends.jpg";
-import HackerMan from "./hackerman.jpg";
+import BoatWithFriends from "./boat-with-friends.webp";
+import FamPic from "./fam-pic.webp";
+import FarewellWithFriends from "./farewell-with-friends.webp";
+import HackerMan from "./hackerman.webp";
 import SiblingsNoBG from "./siblings-removebg-preview.png";
-import Siblings from "./siblings.jpg";
+import Siblings from "./siblings.webp";
 import SwimmingWithFriends from "./swimming-with-friends.jpg";
 import TopViewSelfieBeach from "./top-view-selfie-beach.jpg";
 import UnitedFriends from "./united-friends.jpg";
 import VideokeWithFriends from "./videoke-with-friends.jpg";
 import YearEndParty from "./year-end-party.jpg";
-import GhibliSelf from "./ghibli-me.png";
-import GhibliFam from "./ghibli-fam.png";
-import ClonedSite from "./cloned-site.png";
-import LandingPages from "./landing-page.png";
-import HobbyPage from "./hobby-page.png";
+import GhibliSelf from "./ghibli-me.webp";
+import GhibliFam from "./ghibli-fam.webp";
+import ClonedSite from "./cloned-site.webp";
+import LandingPages from "./landing-page.webp";
+import HobbyPage from "./hobby-page.webp";
 
 export {
   ActivityTeam,
