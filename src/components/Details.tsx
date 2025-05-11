@@ -21,7 +21,10 @@ const Details = () => {
             </div>
             <div className='mb-2'>
               <p className="text-xs text-foreground/70 mb-2">Let's Talk</p>
-              <div className="px-3 py-2 rounded-md bg-grey-100 hover:bg-violet-200 transition-colors flex justify-between items-center cursor-pointer">
+              <div 
+                onClick={() => window.open("https://calendar.google.com/calendar/u/0?cid=YXJpZWxnbHZ6QGdtYWlsLmNvbQ", "_blank")}
+                className="px-3 py-2 rounded-md bg-grey-100 hover:bg-violet-200 transition-colors flex justify-between items-center cursor-pointer"
+              >
                 <span className="text-sm font-medium">Schedule a Call</span>
                 <Icon icon="material-symbols:arrow-forward" className='h-5 w-5 opacity-[.7]' />
               </div>
@@ -37,13 +40,22 @@ const Details = () => {
           <div>
             <p className="text-xs text-foreground/70 mb-2">Social Links</p>
             <div className='flex flex-row justify-between'>
-              <div className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-blue-500 cursor-pointer group">
+              <div 
+                onClick={() => window.open("https://www.linkedin.com/in/arielglvz/", "_blank")}
+                className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-blue-500 cursor-pointer group"
+              >
                 <Icon icon="mdi:linkedin" className='h-6 w-6 opacity-[.7] fill-current text-gray-900 group-hover:text-white' />
               </div>
-              <div className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-grey-900 cursor-pointer group">
+              <div 
+                onClick={() => window.open("https://github.com/arielglvz", "_blank")}
+                className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-grey-900 cursor-pointer group"
+                >
                 <Icon icon="mdi:github-box" className='h-6 w-6 opacity-[.7] fill-current text-gray-900 group-hover:text-white' />
               </div>
-              <div className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-gradient-to-r hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 cursor-pointer group">
+              <div 
+                onClick={() => window.open("https://www.instagram.com/arielglvz", "_blank")}
+                className="w-max px-3 py-2 rounded-md bg-gray-100 hover:bg-gradient-to-r hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 cursor-pointer group"
+              >
                 <Icon icon="mdi:instagram" className='h-6 w-6 opacity-[.7] fill-current text-gray-900 group-hover:text-white' />
               </div>
             </div>

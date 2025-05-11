@@ -2,6 +2,7 @@ import { Icon } from '@iconify/react';
 import SectionTitle from './ui/SectionTitle'
 import { about } from '../data';
 import BentoTitle from './ui/BentoTitle';
+import CallToAction from './ui/CallToAction';
 
 const About = () => {
 
@@ -80,12 +81,7 @@ const About = () => {
             <div className="h-full py-2 flex flex-col justify-center rounded-[.5rem] bg-grey-200 shadow">
               <div className="mb-[1rem] text-[1.75rem] font-semibold text-center">Can I add you here ?</div>
               {/* CTA */}
-              <div className="relative flex flex-col items-center  z-1 gap-9">
-                <div className="relative flex items-center gap-1 z-4">
-                  <button className='bg-black text-white text-center rounded-[50px] px-[1.25rem] py-[0.5rem] hover:bg-grey-900 transition-all duration-400 cursor-pointer'>Email</button>
-                  <button className='bg-grey-300 text-black rounded-[50px] px-[1.25rem] py-[0.5rem] flex gap-2 font-semibold hover:bg-white hover:shadow-lg transition-all duration-400 cursor-pointer'>Book a call</button>
-                </div>
-              </div>
+              <CallToAction />
             </div>
           </div>
           <div className="p-[1rem] col-span-1 md:col-span-2 row-span-1 md:row-span-1 border border-grey-200 bg-grey-100 shadow rounded-[1rem] animate-fade-in-7">

@@ -33,11 +33,11 @@ export const detailTags = [
 ]
 
 export const works = [
-  { id: 1, title: "Netflix Clone", img: NetflixClone, stack: [] },
-  { id: 2, title: "Easy Bank Landing Page", img: EasyBank, stack: [] },
-  { id: 3, title: "Shorty Landing Page", img: Shortly, stack: [] },
-  { id: 4, title: "Super Gear Ecommerce Clone", img: SuperGear, stack: [] },
-  { id: 5, title: "Travel Website Slider", img: TravelSlider, stack: [] },
+  { id: 1, title: "Netflix Clone", img: NetflixClone, stacks: ["React JS", "CSS", "Firebase"], link: "https://github.com/arielglvz/netflix-clone" },
+  { id: 2, title: "Easy Bank Landing Page", img: EasyBank, stacks: ["HTML", "CSS", "javascript"], link: "https://github.com/arielglvz/easybank-landing-page" },
+  { id: 3, title: "Shorty Landing Page", img: Shortly, stacks: ["HTML", "CSS", "javascript"], link: "https://github.com/arielglvz/shortly-landing-page" },
+  { id: 4, title: "Super Gear Ecommerce Clone", img: SuperGear, stacks: ["React JS", "Tailwind CSS", "Firebase", "Stripe.js"], link: "https://github.com/arielglvz/react-ecommerce" },
+  { id: 5, title: "Travel Website Slider", img: TravelSlider, stacks: ["HTML", "CSS", "javascript"], link: "https://github.com/arielglvz/web-image-slider" },
 ]
 
 export const user = {
