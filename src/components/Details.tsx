@@ -3,6 +3,16 @@ import BentoTitle from './ui/BentoTitle'
 import { Icon } from '@iconify/react';
 
 const Details = () => {
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = 'ariel-galvez-cv.pdf'; // Make sure this path is correct
+    link.download = 'ariel-galvez-cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
   return (
     <div className='w-full h-full bg-white p-[2rem_1.5rem] rounded-lg'>
       <SectionTitle title="Details" />
@@ -31,7 +41,10 @@ const Details = () => {
             </div>
             <div className='mb-2'>
               <p className="text-xs text-foreground/70 mb-2">My CV</p>
-              <div className="px-3 py-2 rounded-md bg-grey-100 hover:bg-yellow-200 transition-colors flex justify-between items-center cursor-pointer">
+              <div 
+                onClick={downloadCV}
+                className="px-3 py-2 rounded-md bg-grey-100 hover:bg-yellow-200 transition-colors flex justify-between items-center cursor-pointer"
+              >
                 <span className="text-sm font-medium">Download CV</span>
                 <Icon icon="material-symbols:download" className='h-5 w-5 opacity-[.7]' />
               </div>
